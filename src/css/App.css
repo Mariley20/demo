@@ -278,6 +278,7 @@ h1 {
   height: 100%;
   float: left;
   overflow: hidden;
+  margin-left: 5%;
   position: relative;
   text-align: center;
   cursor: default;
@@ -351,5 +352,58 @@ h1 {
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
+
+.cardwork .row .col-lg-1,
+.cardwork .row .col-lg-10,
+.cardwork .row .col-lg-11,
+.cardwork .row .col-lg-12,
+.cardwork .row .col-lg-2,
+.cardwork .row .col-lg-3,
+.cardwork .row .col-lg-4,
+.cardwork .row .col-lg-5,
+.cardwork .row .col-lg-6,
+.cardwork .row .col-lg-7,
+.cardwork .row .col-lg-8,
+.cardwork .row .col-lg-9,
+.cardwork .row .col-md-1,
+.cardwork .row .col-md-10,
+.cardwork .row .col-md-11,
+.cardwork .row .col-md-12,
+.cardwork .row .col-md-2,
+.cardwork .row .col-md-3,
+.cardwork .row .col-md-4,
+.cardwork .row .col-md-5,
+.cardwork .row .col-md-6,
+.cardwork .row .col-md-7,
+.cardwork .row .col-md-8,
+.cardwork .row .col-md-9,
+.cardwork .row .col-sm-1,
+.cardwork .row .col-sm-10,
+.cardwork .row .col-sm-11,
+.cardwork .row .col-sm-12,
+.cardwork .row .col-sm-2,
+.cardwork .row .col-sm-3,
+.cardwork .row .col-sm-4,
+.cardwork .row .col-sm-5,
+.cardwork .row .col-sm-6,
+.cardwork .row .col-sm-7,
+.cardwork .row .col-sm-8,
+.cardwork .row .col-sm-9,
+.cardwork .row .col-xs-1,
+.cardwork .row .col-xs-10,
+.cardwork .row .col-xs-11,
+.cardwork .row .col-xs-12,
+.cardwork .row .col-xs-2,
+.cardwork .row .col-xs-3,
+.cardwork .row .col-xs-4,
+.cardwork .row .col-xs-5,
+.cardwork .row .col-xs-6,
+.cardwork .row .col-xs-7,
+.cardwork .row .col-xs-8,
+.cardwork .row .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px; }
 
 /*# sourceMappingURL=App.css.map */
