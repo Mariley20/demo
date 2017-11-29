@@ -22,7 +22,7 @@ return (
             <Switch>
                     <Route path="/home" render={() => <Home  />}/>
                      <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}   />}/>
-                    <Route path="/work"  render={() => <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} />}/>
+                    <Route path="/work"  render={() => <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work}/>}/>
                     {/*<Route path="/viewWork"  render={() => <ViewWork work={work} selected={selected} />}/>
                     <Route path="/habilities"  render={() => <Habilities NavBar={NavBar} Information={Information} />}/>
                     <Route path = "/contact" render = { () => <Contact NavBar={NavBar} Information={Information}/>} /> */}
