@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono");
 .firts_Information {
   position: absolute;
   z-index: 3;
@@ -18,6 +20,9 @@
   font-family: "PT Mono", monospace;
   font-size: 22px; }
 
+.home-page .particles-js {
+  height: 100vh; }
+
 /* ---- reset ---- */
 /* canvas {
   display: block;
@@ -30,7 +35,6 @@
 .particles-js {
   position: absolute;
   width: 100%;
-  height: 100vh;
   background: linear-gradient(45deg, #e10522 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #3105d1 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #0adbd8 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #09f505 100%, rgba(9, 245, 5, 0) 70%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +145,8 @@ h1 {
   height: 250px;
   box-sizing: border-box;
   font-size: 20px;
-  text-align: left; }
+  text-align: left;
+  z-index: 20; }
 
 .menu-item:hover {
   background: white;

@@ -1,4 +1,4 @@
-
+@import '_variables';
 a {
     color: inherit;
 }
@@ -88,8 +88,13 @@ h1 {
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
+    z-index: 20;
 }
 
+// .menu-item h3 {
+//     font-family: $text;
+//     font-size: 0.1em;
+// }
 .menu-item:hover {
     background: white;
     color: #ff4081;

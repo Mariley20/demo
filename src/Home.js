@@ -9,13 +9,18 @@ export const Home = () => {
     return (
         <div className="home-page text-center">
             {/* <div id="particles-js"></div> */}
-            <Particles 
-                params={particle}
-                className='particles-js'
-                width={'100%'} />
+            <ParticlesBackground />
                 <NavBar />
                 <Information/>
         </div>
+    )
+}
+export const ParticlesBackground = () => {
+    return (
+        <Particles 
+                params={particle}
+                className='particles-js'
+                width={'100%'} />
     )
 }
 export const Information = () => {
@@ -39,12 +44,37 @@ export const NavBar = () => {
     <span className="hamburger hamburger-2"></span>
     <span className="hamburger hamburger-3"></span>
   </label>
-  
-  <a href="#" className="menu-item"> <i className="fa fa-bar-chart"></i> </a>
+  {/* <NavLink></NavLink> */}
+  <NavLink to="/home" className="menu-item">
+                    
+                        <i className="fa fa-home" aria-hidden="true"></i>
+                    
+                </NavLink>
+                <NavLink to="/about" className="menu-item">
+                    
+                        <i className="glyphicon glyphicon-user" aria-hidden="true"></i>
+                    
+                </NavLink>
+                <NavLink to="/portfolio" className="menu-item">
+                    
+                        <i className="fa fa-briefcase" aria-hidden="true"></i>
+                    
+                </NavLink>
+                <NavLink to="/habilities" className="menu-item">
+                     
+                        <i className="fa fa-magic " aria-hidden="true"></i>
+                    
+                </NavLink>
+                <NavLink to="/contact" className="menu-item">
+                      
+                        <i className="fa fa-envelope" aria-hidden="true"></i>
+                    
+                </NavLink>
+  {/* <a href="#" className="menu-item"> <i className="fa fa-bar-chart"></i> </a>
   <a href="#" className="menu-item"> <i className="fa fa-plus"></i> </a>
   <a href="#" className="menu-item"> <i className="fa fa-heart"></i> </a>
   <a href="#" className="menu-item"> <i className="fa fa-envelope"></i> </a>
-  <a href="#" className="menu-item"> <i className="fa fa-cog"></i> </a>
+  <a href="#" className="menu-item"> <i className="fa fa-cog"></i> </a> */}
 
 </nav>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
-import {NavBar} from './Home';
-export const About = () => {
+// import {NavBar} from './Home';
+export const About = ({NavBar, ParticlesBackground}) => {
     return (
         <div className='row'>
             <div className='col-sm-4'>
+            <ParticlesBackground />
                 <NavBar />
             </div>
             <div className='col-sm-8'>

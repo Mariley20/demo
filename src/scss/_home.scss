@@ -1,19 +1,26 @@
 @import '_variables';
-.firts_Information{
+.firts_Information {
     position: absolute;
     z-index: 3;
     color: white;
     text-shadow: 7px -3px 12px black;
     padding: 10% 10%;
 }
-.title{
+
+.title {
     font-family: $fontTitle;
     font-size: 5.4em;
 }
-.subtitle{
+
+.subtitle {
     font-family: $fontSubtitle;
 }
-.welcome{
+
+.welcome {
     font-family: $text;
     font-size: 22px;
+}
+
+.home-page .particles-js {
+    height: 100vh;
 }
