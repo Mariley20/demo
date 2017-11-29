@@ -10,7 +10,7 @@ import {
 // import './styles/App.css';
 import {Home, NavBar, ParticlesBackground} from './Home';
 import {About} from './About';
-// import {Portfolio} from './Portfolio';
+import {Work} from './Work';
 // import {Habilities} from './Habilities';
 // import {Contact} from './Contact';
 // import {ViewWork} from './ViewWork';
@@ -21,12 +21,12 @@ return (
         <HashRouter>
             <Switch>
                     <Route path="/home" render={() => <Home  />}/>
-                     <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}  />}/>
-                    {/*<Route path="/portfolio"  render={() => <Portfolio NavBar={NavBar} Information={Information} work={work} />}/>
-                    <Route path="/viewWork"  render={() => <ViewWork work={work} selected={selected} />}/>
+                     <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}   />}/>
+                    <Route path="/work"  render={() => <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} />}/>
+                    {/*<Route path="/viewWork"  render={() => <ViewWork work={work} selected={selected} />}/>
                     <Route path="/habilities"  render={() => <Habilities NavBar={NavBar} Information={Information} />}/>
                     <Route path = "/contact" render = { () => <Contact NavBar={NavBar} Information={Information}/>} /> */}
-                    <Route path='/portfolio' render={() => <Redirect to="/home"/>}/>
+                    <Route path='/demo' render={() => <Redirect to="/home"/>}/>
                     <Route exact path="/" render={() => <Home />}/>
                     {/* <Route path="/resume"  render={() => <Resume biografy={biografy} selected={selected} />}/> */}
             </Switch>

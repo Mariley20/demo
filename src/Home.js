@@ -55,7 +55,7 @@ export const NavBar = () => {
                         <i className="glyphicon glyphicon-user" aria-hidden="true"></i>
                     
                 </NavLink>
-                <NavLink to="/portfolio" className="menu-item">
+                <NavLink to="/work" className="menu-item">
                     
                         <i className="fa fa-briefcase" aria-hidden="true"></i>
                     
