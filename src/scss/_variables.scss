@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script|Lato');
-$background:rgb(167,
-162,
-162);
-$fontParagraph: 'Lato',
-sans-serif;
-$fontTitle: 'Bad Script',
-cursive;
-$background2: #e20025; //#337ab7; //#f7484e;
-$image: 'https://cdn.pixabay.com/photo/2016/12/27/21/03/lone-tree-1934897_960_720.jpg';
+@import url('https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+$fontTitle:'Parisienne', cursive;
+$fontSubtitle: 'Lobster', cursive;
+$fontText: 'Raleway', sans-serif; 
+$text: 'PT Mono',
+monospace ;//'PT Serif',serif;

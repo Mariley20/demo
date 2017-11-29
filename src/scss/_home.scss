@@ -1,7 +1,19 @@
+@import '_variables';
 .firts_Information{
     position: absolute;
     z-index: 3;
     color: white;
     text-shadow: 7px -3px 12px black;
     padding: 10% 10%;
+}
+.title{
+    font-family: $fontTitle;
+    font-size: 5.4em;
+}
+.subtitle{
+    font-family: $fontSubtitle;
+}
+.welcome{
+    font-family: $text;
+    font-size: 22px;
 }
