@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .firts_Information {
   position: absolute;
   z-index: 3;
@@ -14,11 +16,15 @@
   font-size: 5.4em; }
 
 .subtitle {
-  font-family: "Lobster", cursive; }
+  font-family: "Lobster", cursive;
+  font-size: 4vh; }
 
 .welcome {
   font-family: "PT Mono", monospace;
   font-size: 22px; }
+
+.paragraph {
+  font-family: "Montserrat", sans-serif; }
 
 .home-page .particles-js {
   height: 100vh; }
@@ -206,8 +212,20 @@ h1 {
   transition-duration: 480ms;
   transform: translate3d(-114.40705px, 11.66307px, 0); }
 
-.about {
-  position: relative; }
+.about-page .title {
+  z-index: 3;
+  position: absolute;
+  padding-top: 50%;
+  color: white;
+  padding-left: 10%;
+  text-shadow: 7px -3px 12px black; }
+
+.aboutme {
+  padding: 10%; }
+
+.aboutme .paragraph {
+  line-height: 1.8;
+  font-size: 2vh; }
 
 @media only screen and (max-width: 600px) {
   .particles-js {
@@ -229,6 +247,14 @@ h1 {
     text-align: left;
     z-index: 20; } }
 @media only screen and (max-width: 900px) {
+  .about-page .title {
+    z-index: 3;
+    position: absolute;
+    padding-top: 35%;
+    color: white;
+    padding-left: 10%;
+    text-shadow: black 7px -3px 12px; }
+
   .particles-js {
     position: absolute;
     width: 100%;

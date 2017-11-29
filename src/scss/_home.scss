@@ -14,11 +14,16 @@
 
 .subtitle {
     font-family: $fontSubtitle;
+    font-size: 4vh;
 }
 
 .welcome {
     font-family: $text;
     font-size: 22px;
+}
+
+.paragraph {
+    font-family: $text1;
 }
 
 .home-page .particles-js {

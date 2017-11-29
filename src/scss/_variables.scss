@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway');
 @import url('https://fonts.googleapis.com/css?family=PT+Mono');
-$fontTitle:'Parisienne', cursive;
-$fontSubtitle: 'Lobster', cursive;
-$fontText: 'Raleway', sans-serif; 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+$fontTitle:'Parisienne',
+cursive;
+$fontSubtitle: 'Lobster',
+cursive;
+$fontText: 'Raleway',
+sans-serif;
 $text: 'PT Mono',
-monospace ;//'PT Serif',serif;
+monospace;
+$text1 :'Montserrat',
+sans-serif;

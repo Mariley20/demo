@@ -1,5 +1,19 @@
-.about {
-    position: relative;
+.about-page .title {
+    z-index: 3;
+    position: absolute;
+    padding-top: 50%;
+    color: white;
+    padding-left: 10%;
+    text-shadow: 7px -3px 12px black;
+}
+
+.aboutme {
+    padding: 10%;
+}
+
+.aboutme .paragraph {
+    line-height: 1.8;
+    font-size: 2vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -29,6 +43,14 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .about-page .title {
+        z-index: 3;
+        position: absolute;
+        padding-top: 35%;
+        color: white;
+        padding-left: 10%;
+        text-shadow: black 7px -3px 12px;
+    }
     .particles-js {
         position: absolute;
         width: 100%;
