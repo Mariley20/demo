@@ -146,6 +146,26 @@ let work = [
         img: 'img/invitados.png',
         github: 'https://github.com/Mariley20/Registro-invitados-mvc/',
         website: 'https://mariley20.github.io/Registro-invitados-mvc/'
+    },
+    {
+        name: 'ScoreBoard',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['Reactjs','CSS', 'Redux', 'Router', 'HTML', 'Programación por Componentes'],
+        img: 'img/scoreboard.png',
+        github: 'https://github.com/Mariley20/Registro-invitados-mvc/',
+        website: 'https://mariley20.github.io/Registro-invitados-mvc/'
+    }
+    {
+        name: 'Reserva de Pasajes',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['HTML', 'CSS', 'Reactjs','Redux', 'Router', 'Programación por Componentes'],
+        img: 'img/reservapasajes.png',
+        github: 'https://github.com/Mariley20/Reserva_de_Pasajes/',
+        website: 'https://mariley20.github.io/Reserva_de_Pasajes/'
     }
 ]
 
