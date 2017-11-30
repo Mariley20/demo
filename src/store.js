@@ -87,15 +87,65 @@ let work = [
         img: 'img/pandalove.png',
         github: 'https://github.com/Mariley20/PandaPanda',
         website: 'https://mariley20.github.io/PandaPanda/'
+    },
+    {
+        name: 'Google Maps',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['CSS','HTML', 'jQuery', 'GoogleMaps Api', 'Programación Orientada A Objetos'],
+        img: 'img/googlemap.png',
+        github: 'https://github.com/Mariley20/easy-vreco',
+        website: 'https://mariley20.github.io/easy-vreco/'
+    },
+    {
+        name: 'Quiz',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['CSS','HTML', 'jQuery', 'GoogleMaps Api', 'Programación Orientada A Objetos'],
+        img: 'img/googlemap.png',
+        github: 'https://github.com/Mariley20/easy-vreco',
+        website: 'https://mariley20.github.io/easy-vreco/'
     }, {
         name: 'japanese Food',
         mode: 'Colaborativo',
         description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
                 'atillos de Sushi',
-        tecnologies: 'React, js, Redux, HTML, CSS, Bootstrap 3',
+        tecnologies: ['React', 'js', 'Redux', 'HTML', 'CSS', 'Bootstrap', 'Programación por Componentes'],
         img: 'img/japaneseFood.png',
         github: 'https://github.com/Mariley20/Japanesefood',
         website: 'https://jani-123.github.io/Japanesefood/'
+    },
+    {
+        name: 'Trello',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['React', 'js', 'Redux', 'Router', 'HTML', 'CSS', 'Bootstrap', 'Programación por Componentes'],
+        img: 'img/japaneseFood.png',
+        github: 'https://github.com/Mariley20/trello-firebase-redux/',
+        website: 'https://mariley20.github.io/trello-firebase-redux/'
+    },
+    {
+        name: 'Comment',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['Reactjs', 'Redux', 'Router', 'HTML', 'Bootstrap', 'Programación por Componentes'],
+        img: 'img/comment.png',
+        github: 'https://github.com/Mariley20/comenta-redux/',
+        website: 'https://mariley20.github.io/comenta-redux/'
+    },
+    {
+        name: 'Registro de Invitados',
+        mode: 'Individual',
+        description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
+                'atillos de Sushi',
+        tecnologies: ['Reactjs', 'Redux', 'Router', 'HTML', 'Bootstrap', 'Programación por Componentes'],
+        img: 'img/invitados.png',
+        github: 'https://github.com/Mariley20/Registro-invitados-mvc/',
+        website: 'https://mariley20.github.io/Registro-invitados-mvc/'
     }
 ]
 
