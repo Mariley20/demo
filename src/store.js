@@ -156,7 +156,7 @@ let work = [
         img: 'img/scoreboard.png',
         github: 'https://github.com/Mariley20/Registro-invitados-mvc/',
         website: 'https://mariley20.github.io/Registro-invitados-mvc/'
-    }
+    },
     {
         name: 'Reserva de Pasajes',
         mode: 'Individual',
