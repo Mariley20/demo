@@ -1,4 +1,9 @@
 @import '_variables';
+svg:not(:root) {
+    overflow: hidden;
+    position: absolute;
+}
+
 a {
     color: inherit;
 }
@@ -16,6 +21,11 @@ h1 {
     font-size: 3em;
 }
 
+.navbar-menu .menu {
+    // padding: 0;
+    margin: 0;
+}
+
 .menu {
     filter: url("#shadowed-goo");
 }
@@ -26,7 +36,7 @@ h1 {
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    margin-left: -40px;
+    // margin-left: -40px;
     position: absolute;
     top: 20px;
     color: white;
@@ -34,6 +44,7 @@ h1 {
     line-height: 80px;
     transform: translate3d(0, 0, 0);
     transition: transform ease-out 200ms;
+    // z-index: 3;
 }
 
 .menu-open {
@@ -51,6 +62,7 @@ h1 {
     margin-left: -12.5px;
     margin-top: -1.5px;
     transition: transform 200ms;
+    // z-index: 5;
 }
 
 .hamburger-1 {
@@ -78,17 +90,17 @@ h1 {
 }
 
 .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
+    position: fixed;
+    top: 0;
+    left: 0;
     padding-top: 20px;
     padding-left: 190px;
-    width: 380px;
-    height: 250px;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    z-index: 20;
+    z-index: 3;
+    height: 50px;
+    width: 100%;
 }
 
 // .menu-item h3 {

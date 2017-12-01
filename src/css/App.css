@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 .firts_Information {
   position: absolute;
+  top: 40vh;
   z-index: 3;
   color: white;
   text-shadow: 7px -3px 12px black;
@@ -37,13 +38,14 @@
 
 /* ---- particles.js container ---- */
 .particles-js {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   background: linear-gradient(45deg, #000000, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #000000 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #000000 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #016bff 100%, rgba(9, 245, 5, 0) 0);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  background-attachment: fixed; }
 
 /* ---- stats.js ---- */
 .count-particles {
@@ -75,6 +77,10 @@
 .count-particles {
   border-radius: 0 0 3px 3px; }
 
+svg:not(:root) {
+  overflow: hidden;
+  position: absolute; }
+
 a {
   color: inherit; }
 
@@ -89,6 +95,9 @@ h4 {
 h1 {
   font-size: 3em; }
 
+.navbar-menu .menu {
+  margin: 0; }
+
 .menu {
   filter: url("#shadowed-goo"); }
 
@@ -98,7 +107,6 @@ h1 {
   border-radius: 100%;
   width: 80px;
   height: 80px;
-  margin-left: -40px;
   position: absolute;
   top: 20px;
   color: white;
@@ -141,17 +149,17 @@ h1 {
   transform: translate3d(0, 0, 0) rotate(-45deg); }
 
 .menu {
-  position: absolute;
-  left: 50%;
-  margin-left: -190px;
+  position: fixed;
+  top: 0;
+  left: 0;
   padding-top: 20px;
   padding-left: 190px;
-  width: 380px;
-  height: 250px;
   box-sizing: border-box;
   font-size: 20px;
   text-align: left;
-  z-index: 20; }
+  z-index: 3;
+  height: 50px;
+  width: 100%; }
 
 .menu-item:hover {
   background: white;
@@ -226,24 +234,8 @@ h1 {
   font-size: 2vh; }
 
 @media only screen and (max-width: 600px) {
-  .particles-js {
-    position: absolute;
-    width: 100%;
-    height: auto; }
-
-  .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
-    padding-top: 20px;
-    padding-left: 190px;
-    width: 380px;
-    height: 250px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 20px;
-    text-align: left;
-    z-index: 20; } }
+  .title {
+    font-size: 20px; } }
 @media only screen and (max-width: 900px) {
   .about-page .title {
     z-index: 3;
@@ -251,26 +243,7 @@ h1 {
     padding-top: 35%;
     color: white;
     padding-left: 10%;
-    text-shadow: black 7px -3px 12px; }
-
-  .particles-js {
-    position: absolute;
-    width: 100%;
-    height: 40vh; }
-
-  .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
-    padding-top: 20px;
-    padding-left: 190px;
-    width: 380px;
-    height: 250px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 20px;
-    text-align: left;
-    z-index: 20; } }
+    text-shadow: black 7px -3px 12px; } }
 .hovereffect {
   width: 100%;
   height: 100%;

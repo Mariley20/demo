@@ -3,15 +3,22 @@ import {NavLink} from 'react-router-dom';
 import Particles from 'react-particles-js'
 import {myFunction} from './actions';
 import './css/App.css';
-import particle from './particlesjs-config.json'
+import particle from './particlesjs-config.json';
+// import {Work} from './Work';
+// import {About} from './About';
 // import { evaluateAddCard, addCard } from './actions';
-export const Home = () => {
+export const Home = ({About, Work, work}) => {
+    console.log('work', work);
     return (
+        <div>
         <div className="home-page text-center">
             {/* <div id="particles-js"></div> */}
             <ParticlesBackground />
                 <NavBar />
                 <Information/>
+        </div>
+            <About NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
+            <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work} />
         </div>
     )
 }
@@ -35,7 +42,7 @@ export const Information = () => {
 }
 export const NavBar = () => {
     return (
-        <div>
+        <div className='navbar-menu'>
         <nav className="menu">
   <input type="checkbox" href="#" className="menu-open" name="menu-open" id="menu-open"/>
   <label className="menu-open-button" htmlFor="menu-open">
@@ -49,7 +56,7 @@ export const NavBar = () => {
                         <i className="fa fa-home" aria-hidden="true"></i>
                     
                 </NavLink>
-                <NavLink to="/about" className="menu-item">
+                <NavLink to="/about" className="menu-item" data-toggle="tooltip" title="Hooray!">
                     
                         <i className="glyphicon glyphicon-user" aria-hidden="true"></i>
                     

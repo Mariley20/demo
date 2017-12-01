@@ -5,7 +5,7 @@ export const Work = ({NavBar, ParticlesBackground, work}) => {
     return (
         <div className='row about-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
-                <ParticlesBackground />
+                {/* <ParticlesBackground /> */}
                 <p className='title'>My Work...</p>
                 <NavBar />
             </div>
