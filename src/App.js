@@ -20,14 +20,14 @@ return (
      <div className="container-fluid">
         <HashRouter>
             <Switch>
-                    <Route path="/home" render={() => <Home About={About} Work={Work} work={work} />}/>
-                     <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}   />}/>
-                    <Route path="/work"  render={() => <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work}/>}/>
+                    <Route path="/home" render={() => <Home About={About} Work={Work} work={work} Habilities={Habilities} Contact={Contact}/>}/>
+                     {/* <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}   />}/>
+                    <Route path="/work"  render={() => <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work}/>}/> */}
                     {/*<Route path="/viewWork"  render={() => <ViewWork work={work} selected={selected} />}/>*/}
-                    <Route path="/habilities"  render={() => <Habilities  NavBar={NavBar} ParticlesBackground={ParticlesBackground}/>}/>
-                    <Route path = "/contact" render = { () => <Contact NavBar={NavBar} ParticlesBackground={ParticlesBackground}/>} /> 
+                    {/* <Route path="/habilities"  render={() => <Habilities  NavBar={NavBar} ParticlesBackground={ParticlesBackground}/>}/>
+                    <Route path = "/contact" render = { () => <Contact NavBar={NavBar} ParticlesBackground={ParticlesBackground}/>} />  */}
                     <Route path='/demo' render={() => <Redirect to="/home"/>}/>
-                    <Route exact path="/" render={() => <Home About={About} Work={Work} work={work} />}/>
+                    <Route exact path="/" render={() => <Home About={About} Work={Work} work={work} Habilities={Habilities} Contact={Contact} />}/>
                     {/* <Route path="/resume"  render={() => <Resume biografy={biografy} selected={selected} />}/> */}
             </Switch>
         </HashRouter>

@@ -7,7 +7,7 @@ import particle from './particlesjs-config.json';
 // import {Work} from './Work';
 // import {About} from './About';
 // import { evaluateAddCard, addCard } from './actions';
-export const Home = ({About, Work, work}) => {
+export const Home = ({About, Work, work, Habilities, Contact}) => {
     console.log('work', work);
     return (
         <div>
@@ -19,6 +19,9 @@ export const Home = ({About, Work, work}) => {
         </div>
             <About NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
             <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work} />
+            <Habilities NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
+            <Contact NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
+
         </div>
     )
 }
