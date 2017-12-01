@@ -4,6 +4,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .firts_Information {
   position: absolute;
   z-index: 3;
@@ -29,11 +32,6 @@
 .home-page .particles-js {
   height: 100vh; }
 
-/* ---- reset ---- */
-/* canvas {
-  display: block;
-  vertical-align: bottom;
-} */
 .container-fluid {
   padding-left: 0px; }
 
@@ -42,7 +40,7 @@
   position: absolute;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, #e10522 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #3105d1 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #0adbd8 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #09f505 100%, rgba(9, 245, 5, 0) 70%);
+  background: linear-gradient(45deg, #000000, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #000000 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #000000 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #e91e63 100%, rgba(9, 245, 5, 0) 0);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
@@ -405,5 +403,78 @@ h1 {
   min-height: 1px;
   padding-right: 0px;
   padding-left: 0px; }
+
+.form-group {
+  margin: 0; }
+
+.form-input,
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.line-vertical {
+  width: 1px;
+  height: 10vh;
+  background: #a7a2a2; }
+
+.form-input .input-group {
+  width: 100%; }
+
+.form-input input,
+.form-input textarea {
+  border-radius: 3px;
+  width: calc(100% + 1px);
+  margin-top: 6px;
+  margin-bottom: 5.1%;
+  border: 1px solid #a7a2a2;
+  padding: 10px;
+  letter-spacing: 1px;
+  transition: all 300ms linear; }
+
+.form-input input {
+  height: 6.7vh; }
+
+.form-input textarea {
+  height: 17vh; }
+
+.form-input input:focus {
+  outline: none; }
+
+.input-text:focus,
+.input-text:hover {
+  border: 2px solid #000000; }
+
+.contact-me .fa-lg {
+  font-size: 3.333333em;
+  color: white; }
+
+.contact-me span {
+  padding-bottom: 10%; }
+
+.contact-me .fa-circle {
+  font-size: 14vh;
+  font-weight: 100px; }
+
+.contact-me p {
+  margin-bottom: 10%;
+  padding-top: 10px; }
+
+/*btn*/
+.btn-primary {
+  background-image: linear-gradient(to bottom, #3b0719 0, #5b0b26 100%);
+  border-color: #020001; }
+
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #590a26; }
+
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #681532e3;
+  border-color: #330012; }
 
 /*# sourceMappingURL=App.css.map */
