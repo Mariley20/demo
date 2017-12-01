@@ -26,7 +26,6 @@ export const ParticlesBackground = () => {
 export const Information = () => {
     return (
         <div className='firts_Information'>
-            <h3 className='welcome text-left'>¡Hola! </h3>
             <h3 className='welcome'>Soy</h3>
             <h1 className='title text-rigth'>Mariley Erika</h1>
             <h2 className='title'>Condori Calla</h2>
