@@ -12,7 +12,7 @@ import {
 // import { Row, Col, ListGroup, ListGroupItem} from 'react-bootstrap';
 import './css/App.css';
 // import { evaluateAddCard, addCard } from './actions';
-export const Contact = ({NavBar, ParticlesBackground}) => {
+export const Contact = ({NavBar}) => {
 return (
         <div className='row about-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>

@@ -17,10 +17,10 @@ export const Home = ({About, Work, work, Habilities, Contact}) => {
                 <NavBar />
                 <Information/>
         </div>
-            <About NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
-            <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work} />
-            <Habilities NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
-            <Contact NavBar={NavBar} ParticlesBackground={ParticlesBackground} />
+            <About NavBar={NavBar}  />
+            <Work NavBar={NavBar}  work={work} />
+            <Habilities NavBar={NavBar}  />
+            <Contact NavBar={NavBar}  />
 
         </div>
     )

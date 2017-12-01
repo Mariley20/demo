@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 // import {NavBar} from './Home';
-export const About = ({NavBar, ParticlesBackground}) => {
+export const About = ({NavBar}) => {
     return (
         <div className='row about-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
