@@ -17,7 +17,7 @@ export const Work = ({NavBar, ParticlesBackground, work}) => {
 }
 export const Cards = ({work}) => {
     return (
-        <div className='row'>
+        <div className='row container-flexbox'>
         {work.map((item, index) => {
         return (<div key={index} className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div className="hovereffect">

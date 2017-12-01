@@ -1,10 +1,15 @@
-// .cardwork {
-//     display: flex;
-//     flex-wrap: wrap;
-// }
+.container-flexbox{
+    margin: 5%;
+}
+.img-responsive{
+    width: 30%;
+    height: 30vh;
+    border: 3px solid black;
+    -webkit-filter: drop-shadow(8px 8px 10px);
+    filter: drop-shadow(8px 8px 10px);
+}
+
 .cardwork .row {
-    // margin-left: 1%;
-    // margin-right: 1%;
     .col-lg-1,
     .col-lg-10,
     .col-lg-11,
@@ -54,8 +59,10 @@
     .col-xs-8,
     .col-xs-9 {
         position: relative;
-        min-height: 1px;
-        padding-right: 0px;
-        padding-left: 0px;
+        // min-height: 1px;
+        // padding-right: 0px;
+        // padding-left: 0px;
+        padding-bottom: 15px;
+        
     }
 }
