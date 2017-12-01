@@ -1,480 +1,74 @@
-@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
-@import url("https://fonts.googleapis.com/css?family=PT+Mono");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
-@import url("https://fonts.googleapis.com/css?family=PT+Mono");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
-@import url("https://fonts.googleapis.com/css?family=PT+Mono");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-.firts_Information {
-  position: absolute;
-  z-index: 3;
-  color: white;
-  text-shadow: 7px -3px 12px black;
-  padding: 10% 10%; }
-
-.title {
-  font-family: "Parisienne", cursive;
-  font-size: 5.4em; }
-
-.subtitle {
-  font-family: "Lobster", cursive;
-  font-size: 4vh; }
-
-.welcome {
-  font-family: "PT Mono", monospace;
-  font-size: 22px; }
-
-.paragraph {
-  font-family: "Montserrat", sans-serif; }
-
-.home-page .particles-js {
-  height: 100vh; }
-
-.container-fluid {
-  padding-left: 0px; }
-
-/* ---- particles.js container ---- */
-.particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(45deg, #000000, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #000000 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #000000 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #e91e63 100%, rgba(9, 245, 5, 0) 0);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%; }
-
-/* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold; }
-
-.js-count-particles {
-  font-size: 1.1em; }
-
-#stats,
-.count-particles {
-  -webkit-user-select: none; }
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden; }
-
-.count-particles {
-  border-radius: 0 0 3px 3px; }
-
-a {
-  color: inherit; }
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
-h1 {
-  font-size: 3em; }
-
-.menu {
-  filter: url("#shadowed-goo"); }
-
-.menu-item,
-.menu-open-button {
-  background: #ff4081;
-  border-radius: 100%;
-  width: 80px;
-  height: 80px;
-  margin-left: -40px;
-  position: absolute;
-  top: 20px;
-  color: white;
-  text-align: center;
-  line-height: 80px;
-  transform: translate3d(0, 0, 0);
-  transition: transform ease-out 200ms; }
-
-.menu-open {
-  display: none; }
-
-.hamburger {
-  width: 25px;
-  height: 3px;
-  background: white;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -12.5px;
-  margin-top: -1.5px;
-  transition: transform 200ms; }
-
-.hamburger-1 {
-  transform: translate3d(0, -8px, 0); }
-
-.hamburger-2 {
-  transform: translate3d(0, 0, 0); }
-
-.hamburger-3 {
-  transform: translate3d(0, 8px, 0); }
-
-.menu-open:checked + .menu-open-button .hamburger-1 {
-  transform: translate3d(0, 0, 0) rotate(45deg); }
-
-.menu-open:checked + .menu-open-button .hamburger-2 {
-  transform: translate3d(0, 0, 0) scale(0.1, 1); }
-
-.menu-open:checked + .menu-open-button .hamburger-3 {
-  transform: translate3d(0, 0, 0) rotate(-45deg); }
-
-.menu {
-  position: absolute;
-  left: 50%;
-  margin-left: -190px;
-  padding-top: 20px;
-  padding-left: 190px;
-  width: 380px;
-  height: 250px;
-  box-sizing: border-box;
-  font-size: 20px;
-  text-align: left;
-  z-index: 20; }
-
-.menu-item:hover {
-  background: white;
-  color: #ff4081; }
-
-.menu-item:nth-child(3) {
-  transition-duration: 70ms; }
-
-.menu-item:nth-child(4) {
-  transition-duration: 130ms; }
-
-.menu-item:nth-child(5) {
-  transition-duration: 190ms; }
-
-.menu-item:nth-child(6) {
-  transition-duration: 250ms; }
-
-.menu-item:nth-child(7) {
-  transition-duration: 310ms; }
-
-.menu-open-button {
-  z-index: 2;
-  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-duration: 400ms;
-  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
-  cursor: pointer; }
-
-.menu-open-button:hover {
-  transform: scale(1.2, 1.2) translate3d(0, 0, 0); }
-
-.menu-open:checked + .menu-open-button {
-  transition-timing-function: linear;
-  transition-duration: 200ms;
-  transform: scale(0.8, 0.8) translate3d(0, 0, 0); }
-
-.menu-open:checked ~ .menu-item {
-  transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33); }
-
-.menu-open:checked ~ .menu-item:nth-child(3) {
-  transition-duration: 160ms;
-  transform: translate3d(114.42548px, 11.48084px, 0); }
-
-.menu-open:checked ~ .menu-item:nth-child(4) {
-  transition-duration: 240ms;
-  transform: translate3d(77.18543px, 85.2491px, 0); }
-
-.menu-open:checked ~ .menu-item:nth-child(5) {
-  transition-duration: 320ms;
-  transform: translate3d(0.09158px, 114.99996px, 0); }
-
-.menu-open:checked ~ .menu-item:nth-child(6) {
-  transition-duration: 400ms;
-  transform: translate3d(-77.04956px, 85.37192px, 0); }
-
-.menu-open:checked ~ .menu-item:nth-child(7) {
-  transition-duration: 480ms;
-  transform: translate3d(-114.40705px, 11.66307px, 0); }
-
-.about-page .title {
-  z-index: 3;
-  position: absolute;
-  padding-top: 50%;
-  color: white;
-  padding-left: 10%;
-  text-shadow: 7px -3px 12px black; }
-
-.aboutme {
-  padding: 10%; }
-
-.aboutme .paragraph {
-  line-height: 1.8;
-  font-size: 2vh; }
-
-@media only screen and (max-width: 600px) {
-  .particles-js {
-    position: absolute;
-    width: 100%;
-    height: auto; }
-
-  .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
-    padding-top: 20px;
-    padding-left: 190px;
-    width: 380px;
-    height: 250px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 20px;
-    text-align: left;
-    z-index: 20; } }
-@media only screen and (max-width: 900px) {
-  .about-page .title {
-    z-index: 3;
-    position: absolute;
-    padding-top: 35%;
-    color: white;
-    padding-left: 10%;
-    text-shadow: black 7px -3px 12px; }
-
-  .particles-js {
-    position: absolute;
-    width: 100%;
-    height: 40vh; }
-
-  .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
-    padding-top: 20px;
-    padding-left: 190px;
-    width: 380px;
-    height: 250px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 20px;
-    text-align: left;
-    z-index: 20; } }
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  margin-left: 5%;
-  position: relative;
-  text-align: center;
-  cursor: default;
-  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-  background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%); }
-
-.hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  padding: 3em;
-  text-align: left; }
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 60px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px, 0, 0);
-  transform: translate3d(-40px, 0, 0); }
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  padding: 15% 0 10px 0;
-  text-align: left; }
-
-.hovereffect .overlay:before {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-  border: 1px solid #fff;
-  content: '';
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-20px, 0, 0);
-  transform: translate3d(-20px, 0, 0); }
-
-.hovereffect a,
-.hovereffect p {
-  color: #FFF;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-10px, 0, 0);
-  transform: translate3d(-10px, 0, 0); }
-
-.hovereffect:hover img {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-
-.hovereffect:hover .overlay:before,
-.hovereffect:hover a,
-.hovereffect:hover p {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-
-.cardwork .row .col-lg-1,
-.cardwork .row .col-lg-10,
-.cardwork .row .col-lg-11,
-.cardwork .row .col-lg-12,
-.cardwork .row .col-lg-2,
-.cardwork .row .col-lg-3,
-.cardwork .row .col-lg-4,
-.cardwork .row .col-lg-5,
-.cardwork .row .col-lg-6,
-.cardwork .row .col-lg-7,
-.cardwork .row .col-lg-8,
-.cardwork .row .col-lg-9,
-.cardwork .row .col-md-1,
-.cardwork .row .col-md-10,
-.cardwork .row .col-md-11,
-.cardwork .row .col-md-12,
-.cardwork .row .col-md-2,
-.cardwork .row .col-md-3,
-.cardwork .row .col-md-4,
-.cardwork .row .col-md-5,
-.cardwork .row .col-md-6,
-.cardwork .row .col-md-7,
-.cardwork .row .col-md-8,
-.cardwork .row .col-md-9,
-.cardwork .row .col-sm-1,
-.cardwork .row .col-sm-10,
-.cardwork .row .col-sm-11,
-.cardwork .row .col-sm-12,
-.cardwork .row .col-sm-2,
-.cardwork .row .col-sm-3,
-.cardwork .row .col-sm-4,
-.cardwork .row .col-sm-5,
-.cardwork .row .col-sm-6,
-.cardwork .row .col-sm-7,
-.cardwork .row .col-sm-8,
-.cardwork .row .col-sm-9,
-.cardwork .row .col-xs-1,
-.cardwork .row .col-xs-10,
-.cardwork .row .col-xs-11,
-.cardwork .row .col-xs-12,
-.cardwork .row .col-xs-2,
-.cardwork .row .col-xs-3,
-.cardwork .row .col-xs-4,
-.cardwork .row .col-xs-5,
-.cardwork .row .col-xs-6,
-.cardwork .row .col-xs-7,
-.cardwork .row .col-xs-8,
-.cardwork .row .col-xs-9 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 0px;
-  padding-left: 0px; }
-
-.form-group {
-  margin: 0; }
-
-.form-input,
-.contact-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.line-vertical {
-  width: 1px;
-  height: 10vh;
-  background: #a7a2a2; }
-
-.form-input .input-group {
-  width: 100%; }
-
-.form-input input,
-.form-input textarea {
-  border-radius: 3px;
-  width: calc(100% + 1px);
-  margin-top: 6px;
-  margin-bottom: 5.1%;
-  border: 1px solid #a7a2a2;
-  padding: 10px;
-  letter-spacing: 1px;
-  transition: all 300ms linear; }
-
-.form-input input {
-  height: 6.7vh; }
-
-.form-input textarea {
-  height: 17vh; }
-
-.form-input input:focus {
-  outline: none; }
-
-.input-text:focus,
-.input-text:hover {
-  border: 2px solid #000000; }
-
-.contact-me .fa-lg {
-  font-size: 3.333333em;
-  color: white; }
-
-.contact-me span {
-  padding-bottom: 10%; }
-
-.contact-me .fa-circle {
-  font-size: 14vh;
-  font-weight: 100px; }
-
-.contact-me p {
-  margin-bottom: 10%;
-  padding-top: 10px; }
-
-/*btn*/
-.btn-primary {
-  background-image: linear-gradient(to bottom, #3b0719 0, #5b0b26 100%);
-  border-color: #020001; }
-
-.btn-primary:focus,
-.btn-primary:hover {
-  background-color: #590a26; }
-
-.btn-primary:active:hover,
-.open > .dropdown-toggle.btn-primary.focus,
-.open > .dropdown-toggle.btn-primary:focus,
-.open > .dropdown-toggle.btn-primary:hover {
-  color: #fff;
-  background-color: #681532e3;
-  border-color: #330012; }
-
-/*# sourceMappingURL=App.css.map */
+/*
+Error: File to import not found or unreadable: bourbon.
+       Load path: E:/ANIMATED/portfolio2/src/scss
+        on line 1 of scss/_habilities.scss
+        from line 8 of scss/App.scss
+
+1: @import '_home';
+2: @import '_particle';
+3: @import '_navbar';
+4: @import '_about';
+5: @import '_card';
+6: @import '_work';
+
+Backtrace:
+scss/_habilities.scss:1
+scss/App.scss:8
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: E:/ANIMATED/portfolio2/src/scss\A         on line 1 of scss/_habilities.scss\A         from line 8 of scss/App.scss\A \A 1: @import '_home';\A 2: @import '_particle';\A 3: @import '_navbar';\A 4: @import '_about';\A 5: @import '_card';\A 6: @import '_work';"; }
