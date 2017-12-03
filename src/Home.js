@@ -4,6 +4,7 @@ import Particles from 'react-particles-js'
 import {myFunction} from './actions';
 import './css/App.css';
 import particle from './particlesjs-config.json';
+import AOS from 'aos';
 // import {Work} from './Work';
 // import {About} from './About';
 // import { evaluateAddCard, addCard } from './actions';
