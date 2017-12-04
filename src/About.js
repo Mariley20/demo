@@ -3,6 +3,7 @@ import {NavLink} from 'react-router-dom';
 // import {NavBar} from './Home';
 export const About = ({NavBar}) => {
     return (
+        <section id='about'>
         <div className='row about-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
                 <p className='title'>About me...</p>
@@ -30,5 +31,6 @@ export const About = ({NavBar}) => {
             </p>
             </div>
         </div>
+        </section>
     )
 }

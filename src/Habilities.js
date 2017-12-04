@@ -4,16 +4,16 @@ import './css/App.css';
 
 export const Habilities = ({NavBar}) => {
     return (
-        <div className='row about-page'>
+      <section id='habilities'>
+        <div  className='row about-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
-                {/* <ParticlesBackground /> */}
                 <p className='title'>Contact me...</p>
-                <NavBar />
             </div>
             <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 '>
                 <Skills />
             </div>
         </div>
+        </section>
     )
 
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 import Particles from 'react-particles-js'
 import {myFunction} from './actions';
 import './css/App.css';
@@ -11,7 +11,7 @@ import AOS from 'aos';
 export const Home = ({About, Work, work, Habilities, Contact}) => {
     console.log('work', work);
     return (
-        <div>
+        <section id='home'>
         <div className="home-page text-center">
             {/* <div id="particles-js"></div> */}
             <ParticlesBackground />
@@ -23,7 +23,7 @@ export const Home = ({About, Work, work, Habilities, Contact}) => {
             <Habilities NavBar={NavBar}  />
             <Contact NavBar={NavBar}  />
 
-        </div>
+        </section>
     )
 }
 export const ParticlesBackground = () => {
@@ -54,32 +54,21 @@ export const NavBar = () => {
     <span className="hamburger hamburger-2"></span>
     <span className="hamburger hamburger-3"></span>
   </label>
-  {/* <NavLink></NavLink> */}
-  <NavLink to="/home" className="menu-item">
-                    
-                        <i className="fa fa-home" aria-hidden="true"></i>
-                    
-                </NavLink>
-                <NavLink to="/about" className="menu-item" data-toggle="tooltip" title="Hooray!">
-                    
-                        <i className="glyphicon glyphicon-user" aria-hidden="true"></i>
-                    
-                </NavLink>
-                <NavLink to="/work" className="menu-item">
-                    
-                        <i className="fa fa-briefcase" aria-hidden="true"></i>
-                    
-                </NavLink>
-                <NavLink to="/habilities" className="menu-item">
-                     
-                        <i className="fa fa-magic " aria-hidden="true"></i>
-                    
-                </NavLink>
-                <NavLink to="/contact" className="menu-item">
-                      
-                        <i className="fa fa-envelope" aria-hidden="true"></i>
-                    
-                </NavLink>
+        <a href="#home" className="menu-item">
+            <i className="fa fa-home" aria-hidden="true"></i>
+        </a>
+        <a href='#about'  className="menu-item" data-toggle="tooltip" title="Hooray!">
+            <i className="glyphicon glyphicon-user" aria-hidden="true"></i>
+        </a>
+        <a href='#work' className="menu-item">
+            <i className="fa fa-briefcase" aria-hidden="true"></i>
+        </a>
+        <a href='#habilities'  className="menu-item">
+            <i className="fa fa-magic " aria-hidden="true"></i>
+        </a>
+        <a  href='#contact' className="menu-item">
+            <i className="fa fa-envelope" aria-hidden="true"></i>
+        </a>
 
 </nav>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">

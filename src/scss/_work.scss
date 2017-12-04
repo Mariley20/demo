@@ -9,7 +9,13 @@
     filter: drop-shadow(8px 8px 10px);
 }
 
-.cardwork .row {
+.scrolling-div{
+     height: 100vh;
+     position: relative;
+     overflow: auto;
+}
+.cardwork 
+.row {
     .col-lg-1,
     .col-lg-10,
     .col-lg-11,

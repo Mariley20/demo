@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import {
     Button,
     Form,
@@ -14,16 +14,17 @@ import './css/App.css';
 // import { evaluateAddCard, addCard } from './actions';
 export const Contact = ({NavBar}) => {
 return (
-        <div className='row about-page'>
+< section id = 'contact' >
+        <div id='contact' className='row about-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
                 {/* <ParticlesBackground /> */}
                 <p className='title'>Contact me...</p>
-                <NavBar />
             </div>
             <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 aboutme'>
                 <FormContact />
             </div>
         </div>
+        </section>
     )
 }
 const ContactMe = () =>{

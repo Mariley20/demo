@@ -18,7 +18,7 @@ import {Contact} from './Contact';
 const App = ({biografy, work, selected}) => {
 return (
      <div className="container-fluid">
-        <HashRouter>
+        <BrowserRouter>
             <Switch>
                     <Route path="/home" render={() => <Home About={About} Work={Work} work={work} Habilities={Habilities} Contact={Contact}/>}/>
                      {/* <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}   />}/>
@@ -30,7 +30,7 @@ return (
                     <Route exact path="/" render={() => <Home About={About} Work={Work} work={work} Habilities={Habilities} Contact={Contact} />}/>
                     {/* <Route path="/resume"  render={() => <Resume biografy={biografy} selected={selected} />}/> */}
             </Switch>
-        </HashRouter>
+        </BrowserRouter>
     </div>
 )
 }

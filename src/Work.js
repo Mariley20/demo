@@ -3,16 +3,16 @@ import {NavLink} from 'react-router-dom';
 // import {NavBar} from './Home';
 export const Work = ({NavBar, work}) => {
     return (
+        <section id='work'>
         <div className='row about-page'>
-            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
-                {/* <ParticlesBackground /> */}
-                <p className='title'>My Work...</p>
-                <NavBar />
+            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4' >
+                    <p className='title'>My Work...</p>
             </div>
-            <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork'>
+< div className = 'col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork scrolling-div' >
                 <Cards work={work}/>
             </div>
         </div>
+        </section>
     )
 }
 export const Cards = ({work}) => {
