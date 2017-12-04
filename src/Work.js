@@ -1,6 +1,6 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-export const Work = ({NavBar, work}) => {
+export const Work = ({NavBar, workObj}) => {
     return (
         <section id='work'>
         <div className='row match-my-cols full-page '>
@@ -8,18 +8,18 @@ export const Work = ({NavBar, work}) => {
                     <p className='title'>Mis Proyectos</p>
             </div>
             <div className = 'col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork' >
-                <Cards work={work}/>
+                <Cards workObj={workObj}/>
             </div>
         </div>
         </section>
     )
 }
 
-const Cards = ({work}) => {
+const Cards = ({workObj}) => {
     return (
         <Carousel>
             {
-                work.map((item, index) => {
+                workObj.map((item, index) => {
                 index = index++;
                 return (
                     <Carousel.Item key={index}>

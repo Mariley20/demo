@@ -1,5 +1,5 @@
 import createStore from "redux-zero";
-let work = [
+let workObj = [
     {
         name: 'Game Planet',
         mode: 'Colaborativo',
@@ -85,7 +85,7 @@ let work = [
 let biografy = [];
 const initialState = {
     biografy: biografy,
-    work: work,
+    workObj: workObj,
     selected: 0
 };
 

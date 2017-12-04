@@ -3,21 +3,17 @@ import Particles from 'react-particles-js'
 import './css/App.css';
 import particle from './particlesjs-config.json';
 import AOS from 'aos';
-// import {Work} from './Work';
-// import {About} from './About';
-// import { evaluateAddCard, addCard } from './actions';
-export const Home = ({About, Work, work, Habilities, Contact}) => {
-    console.log('work', work);
+
+export const Home = ({About, Work, workObj, Habilities, Contact}) => {
     return (
         <div >
         <section id='home'  className="home-page text-center">
-            {/* <div id="particles-js"></div> */}
             <ParticlesBackground />
                 <NavBar />
                 <Information/>
         </section>
             <About NavBar={NavBar}  />
-            <Work NavBar={NavBar}  work={work} />
+            <Work NavBar={NavBar}  workObj={workObj} />
             <Habilities NavBar={NavBar}  />
             <Contact NavBar={NavBar}  />
 
@@ -52,7 +48,7 @@ export const NavBar = () => {
     <span className="hamburger hamburger-2"></span>
     <span className="hamburger hamburger-3"></span>
   </label>
-        <a href="#home" className="menu-item">
+        <a href="#" className="menu-item">
             <i className="fa fa-home" aria-hidden="true"></i>
         </a>
         <a href='#about'  className="menu-item" data-toggle="tooltip" title="Hooray!">

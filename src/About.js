@@ -1,9 +1,10 @@
 import React from 'react';
 import AOS from 'aos';
+
 export const About = ({NavBar}) => {
-AOS.init();
+    AOS.init();
     return (
-        <section data-aos="fade-up" id='about'>
+        <section data-aos="fade-down-left" id='about'>
         <div className='row match-my-cols full-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-white'>
                 <p className='title'>Sobre mi...</p>

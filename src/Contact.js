@@ -16,27 +16,6 @@ return (
         </section>
     )
 }
-const ContactMe = () =>{
-    return(
-        <div className="col-sm-4 col-lg-4 text-center contact-me">
-            <span className="fa-stack fa-lg">
-                <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-map-marker fa-stack-1x"></i>
-            </span>
-            <p>Arequipa, Peru</p>
-            <span className="fa-stack fa-lg">
-                <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-mobile fa-stack-1x"></i>
-            </span>
-           <p> +51 910 946 010</p>
-            <span className="fa-stack fa-lg">
-                <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-envelope-o  fa-stack-1x"></i>
-            </span>
-            <p>mariley2018@gmail.com</p>
-        </div>
-    )
-}
 const FormContact = () => {
     return(
         <div>

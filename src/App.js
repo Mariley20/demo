@@ -1,39 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from "redux-zero/react";
 import {
-    HashRouter,
     Redirect,
-    NavLink,
     Route,
     Switch,
     BrowserRouter} from 'react-router-dom';
-// import './styles/App.css';
-import {Home, NavBar, ParticlesBackground} from './Home';
+import {Home} from './Home';
 import {About} from './About';
 import {Work} from './Work';
 import {Habilities} from './Habilities';
 import {Contact} from './Contact';
-// import {ViewWork} from './ViewWork';
-// import {Resume} from './Resume';
-const App = ({biografy, work, selected}) => {
+const App = ({biografy, workObj, selected}) => {
 return (
      <div className="container-fluid">
         <BrowserRouter>
             <Switch>
-                    <Route path="/home" render={() => <Home About={About} Work={Work} work={work} Habilities={Habilities} Contact={Contact}/>}/>
-                     {/* <Route path="/about" render={() => <About NavBar={NavBar} ParticlesBackground={ParticlesBackground}   />}/>
-                    <Route path="/work"  render={() => <Work NavBar={NavBar} ParticlesBackground={ParticlesBackground} work={work}/>}/> */}
-                    {/*<Route path="/viewWork"  render={() => <ViewWork work={work} selected={selected} />}/>*/}
-                    {/* <Route path="/habilities"  render={() => <Habilities  NavBar={NavBar} ParticlesBackground={ParticlesBackground}/>}/>
-                    <Route path = "/contact" render = { () => <Contact NavBar={NavBar} ParticlesBackground={ParticlesBackground}/>} />  */}
-                    <Route path='/demo' render={() => <Redirect to="/home"/>}/>
-                    <Route exact path="/" render={() => <Home About={About} Work={Work} work={work} Habilities={Habilities} Contact={Contact} />}/>
-                    {/* <Route path="/resume"  render={() => <Resume biografy={biografy} selected={selected} />}/> */}
+                    <Route path="/" render={() => <Home About={About} Work={Work} workObj={workObj} Habilities={Habilities} Contact={Contact}/>}/>
+                    <Route path='/demo' render={() => <Redirect to="/"/>}/>
             </Switch>
         </BrowserRouter>
     </div>
 )
 }
-const mapToProps = ({biografy, work, selected}) => ({biografy, work, selected});
+const mapToProps = ({biografy, workObj, selected}) => ({biografy, workObj, selected});
 
 export default connect(mapToProps)(App);
