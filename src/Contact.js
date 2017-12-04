@@ -1,17 +1,6 @@
-import React, { Component } from 'react';
-// import { NavLink } from 'react-router-dom';
-import {
-    Button,
-    Form,
-    FormControl,
-    FormGroup,
-    Col,
-    Checkbox
-} from 'react-bootstrap';
-
-// import { Row, Col, ListGroup, ListGroupItem} from 'react-bootstrap';
+import React from 'react';
 import './css/App.css';
-// import { evaluateAddCard, addCard } from './actions';
+
 export const Contact = ({NavBar}) => {
 return (
 < section id = 'contact' >

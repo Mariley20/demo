@@ -1,6 +1,4 @@
-import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
-// import {NavBar} from './Home';
+import React from 'react';
 import {Carousel} from 'react-bootstrap';
 export const Work = ({NavBar, work}) => {
     return (
@@ -42,26 +40,5 @@ const Cards = ({work}) => {
                 )
             })}
         </Carousel>
-    )
-}
-const Cards2 = ({work}) => {
-    return (
-        <div className='row container-flexbox'>
-            {work.map((item, index) => {
-                return (
-                    <div key={index} className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <div className="hovereffect">
-                            <img className="img-responsive" src={item.img} alt=""/>
-                            <div className="overlay">
-                                <h2>Effect 11</h2>
-                                <p>
-                                    <a href="#">LINK HERE</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
     )
 }

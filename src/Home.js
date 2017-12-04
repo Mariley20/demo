@@ -1,7 +1,5 @@
-import React, {Component} from 'react';
-// import {NavLink} from 'react-router-dom';
+import React from 'react';
 import Particles from 'react-particles-js'
-import {myFunction} from './actions';
 import './css/App.css';
 import particle from './particlesjs-config.json';
 import AOS from 'aos';

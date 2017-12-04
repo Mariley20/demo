@@ -331,105 +331,6 @@ h1 {
 .carousel-inner {
   height: 450px; }
 
-.cardwork
-.row .col-lg-1,
-.cardwork
-.row .col-lg-10,
-.cardwork
-.row .col-lg-11,
-.cardwork
-.row .col-lg-12,
-.cardwork
-.row .col-lg-2,
-.cardwork
-.row .col-lg-3,
-.cardwork
-.row .col-lg-4,
-.cardwork
-.row .col-lg-5,
-.cardwork
-.row .col-lg-6,
-.cardwork
-.row .col-lg-7,
-.cardwork
-.row .col-lg-8,
-.cardwork
-.row .col-lg-9,
-.cardwork
-.row .col-md-1,
-.cardwork
-.row .col-md-10,
-.cardwork
-.row .col-md-11,
-.cardwork
-.row .col-md-12,
-.cardwork
-.row .col-md-2,
-.cardwork
-.row .col-md-3,
-.cardwork
-.row .col-md-4,
-.cardwork
-.row .col-md-5,
-.cardwork
-.row .col-md-6,
-.cardwork
-.row .col-md-7,
-.cardwork
-.row .col-md-8,
-.cardwork
-.row .col-md-9,
-.cardwork
-.row .col-sm-1,
-.cardwork
-.row .col-sm-10,
-.cardwork
-.row .col-sm-11,
-.cardwork
-.row .col-sm-12,
-.cardwork
-.row .col-sm-2,
-.cardwork
-.row .col-sm-3,
-.cardwork
-.row .col-sm-4,
-.cardwork
-.row .col-sm-5,
-.cardwork
-.row .col-sm-6,
-.cardwork
-.row .col-sm-7,
-.cardwork
-.row .col-sm-8,
-.cardwork
-.row .col-sm-9,
-.cardwork
-.row .col-xs-1,
-.cardwork
-.row .col-xs-10,
-.cardwork
-.row .col-xs-11,
-.cardwork
-.row .col-xs-12,
-.cardwork
-.row .col-xs-2,
-.cardwork
-.row .col-xs-3,
-.cardwork
-.row .col-xs-4,
-.cardwork
-.row .col-xs-5,
-.cardwork
-.row .col-xs-6,
-.cardwork
-.row .col-xs-7,
-.cardwork
-.row .col-xs-8,
-.cardwork
-.row .col-xs-9 {
-  position: relative;
-  padding-bottom: 15px; }
-
 .form-group {
   margin: 0; }
 
@@ -441,7 +342,6 @@ h1 {
 
 .line-vertical {
   width: 1px;
-  height: 10vh;
   background: #a7a2a2; }
 
 .form-input .input-group {
@@ -514,8 +414,6 @@ h1 {
 #SkillBox {
   width: 100%;
   height: auto;
-  margin: 40px auto;
-  padding: 10px;
   border-radius: 20px;
   -o-border-radius: 20px;
   -webkit-border-radius: 20px;
