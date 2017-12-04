@@ -21,6 +21,7 @@
 .title {
     font-family: $fontTitle;
     font-size: 5.4em;
+    padding: 10px;
 }
 
 .subtitle {
@@ -40,17 +41,15 @@
 .home-page .particles-js {
     height: 100vh;
 }
-.sidebar{
-    width: 100%;
-    height: auto;
-    position: fixed;
-    outline: 1px solid;
-    background: blue;
-}
+
 .background-blue{
-    background: blue;
+    background: $colorPrimary;
     color: white;
+    display: flex;
+    align-items: center;
 }
 .background-white{
-    color: blue;
+    color: $colorPrimary;
+    display: flex;
+    align-items: center;
 }

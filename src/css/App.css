@@ -7,6 +7,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Parisienne|Raleway");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 * {
   padding: 0;
   margin: 0;
@@ -25,7 +31,8 @@
 
 .title {
   font-family: "Parisienne", cursive;
-  font-size: 5.4em; }
+  font-size: 5.4em;
+  padding: 10px; }
 
 .subtitle {
   font-family: "Lobster", cursive;
@@ -41,19 +48,16 @@
 .home-page .particles-js {
   height: 100vh; }
 
-.sidebar {
-  width: 100%;
-  height: auto;
-  position: fixed;
-  outline: 1px solid;
-  background: blue; }
-
 .background-blue {
-  background: blue;
-  color: white; }
+  background: #002a69;
+  color: white;
+  display: flex;
+  align-items: center; }
 
 .background-white {
-  color: blue; }
+  color: #002a69;
+  display: flex;
+  align-items: center; }
 
 .container-fluid {
   padding-left: 0px; }
@@ -500,13 +504,17 @@ h1 {
   border-color: #330012; }
 
 /* CSS Skill*/
+.SkillBar span {
+  padding-top: 5px;
+  width: 130px;
+  height: 30px;
+  background: black;
+  font-weight: bold; }
+
 #SkillBox {
-  font-size: 20px;
-  font-family: 'Indie Flower', cursive;
   width: 100%;
   height: auto;
   margin: 40px auto;
-  background-color: #fdf5ea61;
   padding: 10px;
   border-radius: 20px;
   -o-border-radius: 20px;
@@ -521,21 +529,19 @@ h1 {
   padding: 10px; }
 
 .SkillBar {
-  border-radius: 20px;
   width: 90%;
-  height: 25px;
+  height: 30px;
   position: relative;
-  background: rgba(92, 11, 39, 0.26);
+  background: #8789f861;
   margin: 20px auto; }
 
 #Skill-HTML,
 #Skill-CSS,
 #Skill-jQuery,
-#Skill-JS, #Skill-XML, #Skill-C, #Skill-JAVA, #Skill-PHP, #Skill-SQL, #Skill-VBNET {
-  height: 25px;
+#Skill-JS, #Skill-XML, #Skill-C, #Skill-Firebase, #Skill-Reactjs, #Skill-SQL, #Skill-VBNET {
+  height: 30px;
   position: absolute;
-  background-color: #600b28;
-  border-radius: 20px; }
+  background-color: #002a69; }
 
 #Skill-HTML {
   width: 100%;
@@ -569,82 +575,82 @@ h1 {
   -webkit-animation: Animate-CSS 5s;
   -moz-animation: Animate-CSS 5s;
   -o-animation: Animate-CSS 5s;
-  width: 70%; }
+  width: 90%; }
 
 @keyframes Animate-CSS {
   from {
     width: 10px; }
   to {
-    width: 70%; } }
+    width: 90%; } }
 @-webkit-keyframes Animate-CSS {
   from {
     width: 10px; }
   to {
-    width: 70%; } }
+    width: 90%; } }
 @-moz-keyframes Animate-CSS {
   from {
     width: 10px; }
   to {
-    width: 70%; } }
+    width: 90%; } }
 @-o-keyframes Animate-CSS {
   from {
     width: 10px; }
   to {
-    width: 70%; } }
+    width: 90%; } }
 #Skill-jQuery {
   animation: Animate-jQuery 5s;
   -webkit-animation: Animate-jQuery 5s;
   -moz-animation: Animate-jQuery 5s;
   -o-animation: Animate-jQuery 5s;
-  width: 40%; }
+  width: 92%; }
 
 @keyframes Animate-jQuery {
   from {
     width: 10px; }
   to {
-    width: 40%; } }
+    width: 92%; } }
 @-webkit-keyframes Animate-jQuery {
   from {
     width: 10px; }
   to {
-    width: 40%; } }
+    width: 92%; } }
 @-moz-keyframes Animate-jQuery {
   from {
     width: 10px; }
   to {
-    width: 40%; } }
+    width: 92%; } }
 @-o-keyframes Animate-jQuery {
   from {
     width: 10px; }
   to {
-    width: 40%; } }
+    width: 92%; } }
 #Skill-JS {
   animation: Animate-JS 4s;
   -webkit-animation: Animate-JS 4s;
   -moz-animation: Animate-JS 4s;
   -o-animation: Animate-JS 4s;
-  width: 65%; }
+  width: 91%; }
 
 @keyframes Animate-JS {
   from {
     width: 10px; }
   to {
-    width: 65%; } }
+    width: 91%; } }
 @-webkit-keyframes Animate-JS {
   from {
     width: 10px; }
   to {
-    width: 65%; } }
+    width: 91%; } }
 @-moz-keyframes Animate-JS {
   from {
     width: 10px; }
   to {
-    width: 65%; } }
+    width: 91%; } }
 @-o-keyframes Animate-JS {
   from {
     width: 10px; }
   to {
-    width: 65%; } }
+    width: 91%; } }
 #Skill-XML {
   animation: Animate-XML 4s;
   -webkit-animation: Animate-XML 4s;
@@ -699,60 +705,60 @@ h1 {
     width: 10px; }
   to {
     width: 30%; } }
-#Skill-JAVA {
+#Skill-Firebase {
   animation: Animate-JAVA 4s;
   -webkit-animation: Animate-JAVA 4s;
   -moz-animation: Animate-JAVA 4s;
   -o-animation: Animate-JAVA 4s;
-  width: 25%; }
+  width: 65%; }
 
 @keyframes Animate-JAVA {
   from {
     width: 10px; }
   to {
-    width: 25%; } }
+    width: 65%; } }
 @-webkit-keyframes Animate-JAVA {
   from {
     width: 10px; }
   to {
-    width: 25%; } }
+    width: 65%; } }
 @-moz-keyframes Animate-JAVA {
   from {
     width: 10px; }
   to {
-    width: 25%; } }
+    width: 65%; } }
 @-o-keyframes Animate-JAVA {
   from {
     width: 10px; }
   to {
-    width: 25%; } }
-#Skill-PHP {
+    width: 65%; } }
+#Skill-Reactjs {
   animation: Animate-PHP 4s;
   -webkit-animation: Animate-PHP 4s;
   -moz-animation: Animate-PHP 4s;
   -o-animation: Animate-PHP 4s;
-  width: 50%; }
+  width: 80%; }
 
 @keyframes Animate-PHP {
   from {
     width: 10px; }
   to {
-    width: 50%; } }
+    width: 80%; } }
 @-webkit-keyframes Animate-PHP {
   from {
     width: 10px; }
   to {
-    width: 50%; } }
+    width: 80%; } }
 @-moz-keyframes Animate-PHP {
   from {
     width: 10px; }
   to {
-    width: 50%; } }
+    width: 80%; } }
 @-o-keyframes Animate-PHP {
   from {
     width: 10px; }
   to {
-    width: 50%; } }
+    width: 80%; } }
 #Skill-SQL {
   animation: Animate-SQL 4s;
   -webkit-animation: Animate-SQL 4s;

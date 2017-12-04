@@ -4,9 +4,9 @@ import {NavLink} from 'react-router-dom';
 export const About = ({NavBar}) => {
     return (
         <section id='about'>
-        <div className='row  full-page'>
+        <div className='row match-my-cols full-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-white'>
-                <p className='title'>About me...</p>
+                <p className='title'>Sobre mi...</p>
                 {/* <NavBar /> */}
             </div>
             <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 aboutme'>

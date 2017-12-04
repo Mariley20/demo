@@ -7,7 +7,7 @@ export const Work = ({NavBar, work}) => {
         <section id='work'>
         <div className='row match-my-cols full-page '>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-blue' >
-                    <p className='title'>My Work...</p>
+                    <p className='title'>Mis Proyectos</p>
             </div>
             <div className = 'col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork' >
                 <Cards work={work}/>

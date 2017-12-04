@@ -11,19 +11,19 @@ import AOS from 'aos';
 export const Home = ({About, Work, work, Habilities, Contact}) => {
     console.log('work', work);
     return (
-        <section id='home'>
-        <div className="home-page text-center">
+        <div >
+        <section id='home'  className="home-page text-center">
             {/* <div id="particles-js"></div> */}
             <ParticlesBackground />
                 <NavBar />
                 <Information/>
-        </div>
+        </section>
             <About NavBar={NavBar}  />
             <Work NavBar={NavBar}  work={work} />
             <Habilities NavBar={NavBar}  />
             <Contact NavBar={NavBar}  />
 
-        </section>
+        </div>
     )
 }
 export const ParticlesBackground = () => {
