@@ -1,4 +1,14 @@
 @import '_variables';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row.match-my-cols {
+    display: flex;
+}
+
+
 .firts_Information {
     position: absolute;
     top: 40vh;

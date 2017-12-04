@@ -1,10 +1,10 @@
 .full-page .title {
-    z-index: 3;
-    position: absolute;
-    padding-top: 50%;
-    color: white;
-    padding-left: 10%;
-    text-shadow: 7px -3px 12px black;
+    // z-index: 3;
+    // position: absolute;
+    // padding-top: 50%;
+    // color: white;
+    // padding-left: 10%;
+    // text-shadow: 7px -3px 12px black;
 }
 
 .aboutme {
@@ -20,15 +20,19 @@
     .title {
         font-size: 20px;
     }
+    .carousel-inner {
+        height: 100px;
+    }
+    .row.match-my-cols {
+        display: initial;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-    .full-page .title {
-        z-index: 3;
-        position: absolute;
-        padding-top: 35%;
-        color: white;
-        padding-left: 10%;
-        text-shadow: black 7px -3px 12px;
+    .carousel-inner {
+        height: 250px;
+    }
+    .row.match-my-cols {
+        display: initial;
     }
 }
