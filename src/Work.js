@@ -4,8 +4,8 @@ import {NavLink} from 'react-router-dom';
 export const Work = ({NavBar, work}) => {
     return (
         <section id='work'>
-        <div className='row about-page'>
-            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4' >
+        <div className='row full-page '>
+            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-blue' >
                     <p className='title'>My Work...</p>
             </div>
 < div className = 'col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork scrolling-div' >

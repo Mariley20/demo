@@ -1,4 +1,4 @@
-.about-page .title {
+.full-page .title {
     z-index: 3;
     position: absolute;
     padding-top: 50%;
@@ -23,7 +23,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .about-page .title {
+    .full-page .title {
         z-index: 3;
         position: absolute;
         padding-top: 35%;

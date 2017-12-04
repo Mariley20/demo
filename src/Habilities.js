@@ -5,8 +5,8 @@ import './css/App.css';
 export const Habilities = ({NavBar}) => {
     return (
       <section id='habilities'>
-        <div  className='row about-page'>
-            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
+        <div  className='row full-page'>
+            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-white'>
                 <p className='title'>Contact me...</p>
             </div>
             <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 '>

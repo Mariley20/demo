@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 export const About = ({NavBar}) => {
     return (
         <section id='about'>
-        <div className='row about-page'>
+        <div className='row full-page background-white'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
                 <p className='title'>About me...</p>
                 {/* <NavBar /> */}

@@ -15,8 +15,8 @@ import './css/App.css';
 export const Contact = ({NavBar}) => {
 return (
 < section id = 'contact' >
-        <div id='contact' className='row about-page'>
-            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4'>
+        <div id='contact' className='row full-page'>
+            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-blue'>
                 {/* <ParticlesBackground /> */}
                 <p className='title'>Contact me...</p>
             </div>
