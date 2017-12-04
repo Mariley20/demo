@@ -16,10 +16,14 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  outline: 2px solid red; }
 
 .row.match-my-cols {
   display: flex; }
+
+.container-fluid {
+  padding-right: 0px; }
 
 .firts_Information {
   position: absolute;
@@ -105,10 +109,13 @@
 
 svg:not(:root) {
   overflow: hidden;
-  position: absolute; }
+  display: none; }
 
 a {
   color: inherit; }
+
+.row {
+  margin-right: 0px; }
 
 h1,
 h2,
@@ -185,7 +192,7 @@ h1 {
   text-align: left;
   z-index: 90;
   height: 220px;
-  width: 100%; }
+  width: 90%; }
 
 .menu-item:hover {
   background: white;

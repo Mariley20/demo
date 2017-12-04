@@ -1,11 +1,15 @@
 @import '_variables';
 svg:not(:root) {
     overflow: hidden;
-    position: absolute;
+    display: none;
 }
 
 a {
     color: inherit;
+}
+
+.row {
+    margin-right: 0px;
 }
 
 h1,
@@ -100,7 +104,7 @@ h1 {
     text-align: left;
     z-index: 90;
     height: 220px;
-    width: 100%;
+    width: 90%;
 }
 
 // .menu-item h3 {

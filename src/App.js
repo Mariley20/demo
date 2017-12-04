@@ -16,7 +16,7 @@ return (
         <BrowserRouter>
             <Switch>
                     <Route path="/" render={() => <Home About={About} Work={Work} workObj={workObj} Habilities={Habilities} Contact={Contact}/>}/>
-                    <Route path='/demo' render={() => <Redirect to="/"/>}/>
+                    <Route path='/mariley20.github.io' render={() => <Redirect to="/"/>}/>
             </Switch>
         </BrowserRouter>
     </div>
