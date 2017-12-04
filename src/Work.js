@@ -8,7 +8,7 @@ export const Work = ({NavBar, workObj}) => {
                     <p className='title'>Mis Proyectos</p>
             </div>
             <div className = 'col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork' >
-                <Cards workObj={workObj}/>
+                <Cards2 workObj={workObj}/>
             </div>
         </div>
         </section>
@@ -42,3 +42,20 @@ const Cards = ({workObj}) => {
         </Carousel>
     )
 }
+const Cards2 = ({workObj}) => {
+      return (
+          <div className='row container-flexbox'>
+         {workObj.map((item, index) => {
+         return (<div key={index} className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                     <div className="hovereffect">
+         <img className="img-responsive" src={item.img} alt=""/>
+            <div className="overlay">
+                <h2>Effect 11</h2>
+ 				<p>
+ 					<a href="#">LINK HERE</a>
+ 				</p>
+            </div>
+    </div>          
+            </div>)})}
+            </div>
+      )}
