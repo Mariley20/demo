@@ -4,10 +4,10 @@ export const Work = ({NavBar, workObj}) => {
     return (
         <section id='work'>
         <div className='row match-my-cols full-page '>
-            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-blue' >
+            <div className='col-xs-12 col-md-5 col-sm-12 col-lg-4 background-blue' >
                     <p className='title'>Mis Proyectos</p>
             </div>
-            <div className = 'col-xs-12 col-md-7 col-sm-8 col-lg-8 cardwork' >
+            <div className = 'col-xs-12 col-md-7 col-sm-12 col-lg-8 cardwork' >
                 <Cards2 workObj={workObj}/>
             </div>
         </div>
@@ -46,7 +46,7 @@ const Cards2 = ({workObj}) => {
       return (
           <div className='row container-flexbox'>
          {workObj.map((item, index) => {
-         return (<div key={index} className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+         return (<div key={index} className="col-xs-12 col-sm-4 col-md-6 col-lg-4">
                      <div className="hovereffect">
          <img className="img-responsive" src={item.img} alt=""/>
             <div className="overlay">

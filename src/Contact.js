@@ -7,7 +7,7 @@ return (
         <div id='contact' className='row match-my-cols full-page'>
             <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-blue'>
                 {/* <ParticlesBackground /> */}
-                <p className='title'>Contáctame...</p>
+                <p className='title'>Contacto</p>
             </div>
             <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 aboutme'>
                 <FormContact />

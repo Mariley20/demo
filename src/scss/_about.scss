@@ -11,13 +11,18 @@
 
 @media only screen and (max-width: 600px) {
     .title {
-        font-size: 20px;
+        font-size: 40px;
+        font-weight: bold;
     }
     .carousel-inner {
         height: 100px;
     }
     .row.match-my-cols {
         display: initial;
+    }
+    .background-blue,
+    .background-white {
+        display: inherit;
     }
 }
 

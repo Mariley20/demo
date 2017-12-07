@@ -28,13 +28,13 @@
   position: absolute;
   top: 40vh;
   z-index: 3;
-  color: white;
-  text-shadow: 7px -3px 12px black;
-  padding: 10% 10%; }
+  color: white; }
 
 .title {
   font-family: "Parisienne", cursive;
-  font-size: 5.4em; }
+  text-align: center;
+  font-size: 5.4em;
+  text-shadow: 7px -3px 12px black; }
 
 .subtitle {
   font-family: "Lobster", cursive;
@@ -259,7 +259,7 @@ h1 {
   position: relative;
   text-align: center;
   cursor: default;
-  background: -webkit-linear-gradient(45deg, #881873 20%, #083c4d 100%);
+  background: -webkit-linear-gradient(45deg, #260a72 20%, #083c4d 100%);
   background: linear-gradient(45deg, #002c69 20%, #000303 100%); }
 
 .hovereffect .overlay {
@@ -332,7 +332,7 @@ h1 {
   transform: translate3d(0, 0, 0); }
 
 .overlay a {
-  margin: 6px; }
+  margin: 2%; }
 
 .container-flexbox {
   margin: 5%; }
@@ -404,23 +404,6 @@ h1 {
 .contact-me p {
   margin-bottom: 10%;
   padding-top: 10px; }
-
-/*btn*/
-.btn-primary {
-  background-image: linear-gradient(to bottom, #3b0719 0, #5b0b26 100%);
-  border-color: #020001; }
-
-.btn-primary:focus,
-.btn-primary:hover {
-  background-color: #590a26; }
-
-.btn-primary:active:hover,
-.open > .dropdown-toggle.btn-primary.focus,
-.open > .dropdown-toggle.btn-primary:focus,
-.open > .dropdown-toggle.btn-primary:hover {
-  color: #fff;
-  background-color: #681532e3;
-  border-color: #330012; }
 
 /* CSS Skill*/
 .SkillBar span {
@@ -747,13 +730,18 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .title {
-    font-size: 20px; }
+    font-size: 40px;
+    font-weight: bold; }
 
   .carousel-inner {
     height: 100px; }
 
   .row.match-my-cols {
-    display: initial; } }
+    display: initial; }
+
+  .background-blue,
+  .background-white {
+    display: inherit; } }
 @media only screen and (max-height: 650px) {
   .home-page .particles-js {
     height: 510px; } }

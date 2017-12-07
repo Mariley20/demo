@@ -19,13 +19,13 @@
     top: 40vh;
     z-index: 3;
     color: white;
-    text-shadow: 7px -3px 12px black;
-    padding: 10% 10%;
 }
 
 .title {
     font-family: $fontTitle;
+    text-align: center;
     font-size: 5.4em;
+    text-shadow: 7px -3px 12px black;
 }
 
 .subtitle {
