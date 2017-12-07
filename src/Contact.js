@@ -19,7 +19,7 @@ return (
 const FormContact = () => {
     return(
         <div>
-            <form className="form-group form-input">
+            <form className="form-group form-input" action="mailto:mariley2018@gmail.com" method="post">
                 <div className="line-vertical"></div>
                 <div className="input-group">
                     <input className="input-text" type="text" placeholder="Full Name" />
@@ -35,7 +35,7 @@ const FormContact = () => {
                 <div className="input-group">
                     <textarea className="input-text" placeholder="your message"></textarea>
                 </div>
-                <a href='mailto:mariley2018@gmail.com' className="btn btn-primary" type="submit">Send Message</a>
+                <button className="btn btn-primary" type="submit">Send Message</button>
             </form>
         </div>
     )

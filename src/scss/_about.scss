@@ -1,5 +1,6 @@
 @import '_variables';
-.aboutme, {
+.aboutme,
+{
     padding: 10%;
 }
 
@@ -20,11 +21,20 @@
     }
 }
 
+@media only screen and (max-height: 650px) {
+    .home-page .particles-js {
+        height: 510px;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .carousel-inner {
         height: 250px;
     }
     .row.match-my-cols {
         display: initial;
+    }
+    .menu {
+        width: 80%;
     }
 }

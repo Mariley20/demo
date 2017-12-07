@@ -50,9 +50,10 @@ const Cards2 = ({workObj}) => {
                      <div className="hovereffect">
          <img className="img-responsive" src={item.img} alt=""/>
             <div className="overlay">
-                <h2>Effect 11</h2>
+                <h2>{item.name}</h2>
  				<p>
- 					<a href="#">LINK HERE</a>
+ 					<a  className='btn btn-primary' target='_blank' href={item.website}>Demo</a>
+                     <a className='btn btn-success'  target='_blank' href={item.github}>Github</a>
  				</p>
             </div>
     </div>          

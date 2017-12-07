@@ -3,8 +3,8 @@
 }
 
 .img-responsive {
-    width: 30%;
-    height: 30vh;
+    width: 190px;
+    height: 200px;
     border: 3px solid black;
     -webkit-filter: drop-shadow(8px 8px 10px);
     filter: drop-shadow(8px 8px 10px);
@@ -12,4 +12,8 @@
 
 .carousel-inner {
     height: 450px;
+}
+
+.overlay h2 {
+    font-weight: bold;
 }
