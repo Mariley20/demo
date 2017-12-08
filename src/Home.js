@@ -11,6 +11,7 @@ export const Home = ({About, Work, workObj, Habilities, Contact}) => {
             <ParticlesBackground />
                 <NavBar />
                 <Information/>
+                <Icons />
         </section>
             <About NavBar={NavBar}  />
             <Work NavBar={NavBar}  workObj={workObj} />
@@ -86,4 +87,25 @@ export const NavBar = () => {
 </svg>
 </div>
     )
+}
+const Icons = () => {
+    return (
+        <div className='social'>
+    <ul className="social-icons">
+  <li className="tab">
+    <a target='_blank' href="https://github.com/Mariley20">
+      <i className="fa fa-github circle"></i>
+    </a>
+  </li>
+  <li className="tab">
+    <a target='_blank' href="#">
+      <i className="fa fa-file-pdf-o circle"></i>
+    </a>
+  </li>
+  <li className="tab">
+    <a target='_blank' href="https://www.linkedin.com/in/marileye/">
+      <i className="fa fa-linkedin circle"></i>
+    </a>
+  </li>
+</ul></div>)
 }

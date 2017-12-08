@@ -11,7 +11,10 @@
     height: 200px;
     position: absolute;
     z-index: 5;
-    background: rgb(13, 231, 231);
+    list-style-type: none;
+    background-color: rgba(248,80,50,1);
+background: @include filter-gradient(#f85032, #e73827, horizontal);
+background: @include background-image(linear-gradient(left, rgba(248,80,50,1) 0%, rgba(240,47,23,0.91) 54%, rgba(231,56,39,0.84) 100%));
 }
 .map-responsive {
     overflow: hidden;
@@ -26,4 +29,16 @@
     height: 100%;
     width: 100%;
     position: absolute;
+}
+.floating-box .email-me{
+    width: 100%
+}
+.floating-box .flag-marke{
+    height: 30px;
+}
+.floating-box {
+    text-align: center;
+    float: left;
+    width: 35%;
+    margin: 10px;
 }
