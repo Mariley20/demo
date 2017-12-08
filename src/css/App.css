@@ -357,6 +357,26 @@ h1 {
   padding-left: 0px;
   padding-right: 0px; }
 
+.informationPersonal {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: 5;
+  background: #0de7e7; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
 /* CSS Skill*/
 .SkillBar span {
   padding-top: 5px;
