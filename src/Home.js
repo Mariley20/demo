@@ -8,7 +8,7 @@ export const Home = ({About, Work, workObj, Habilities, Contact}) => {
     return (
         <div >
         <section id='home'  className="home-page text-center">
-            <ParticlesBackground />
+            {/* <ParticlesBackground /> */}
                 <NavBar />
                 <Information/>
                 <Icons />
@@ -98,7 +98,7 @@ const Icons = () => {
     </a>
   </li>
   <li className="tab">
-    <a target='_blank' href="#">
+    <a target='_blank' href="http://bit.ly/2nMhQvM">
       <i className="fa fa-file-pdf-o circle"></i>
     </a>
   </li>
