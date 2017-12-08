@@ -16,16 +16,23 @@
 
 .firts_Information {
     position: absolute;
-    top: 40vh;
+    top: 27vh;
+    right: 0;
     z-index: 3;
     color: white;
+    text-align: right;
+    padding-right: 8%;
+}
+.firts_Information h1 {
+    font-size: 6em;
+    text-shadow: 7px -3px 12px black;
 }
 
 .title {
     font-family: $fontTitle;
     text-align: center;
     font-size: 5.4em;
-    text-shadow: 7px -3px 12px black;
+    
 }
 
 .subtitle {
