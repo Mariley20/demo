@@ -33,8 +33,10 @@
     font-family: $fontTitle;
     text-align: center;
     font-size: 4em;
-    font-weight: bold;
     text-shadow: 7px -3px 12px black;
+    -webkit-transform:rotateZ (-90deg);
+    -ms-transform:rotateZ (-90deg);
+    transform:rotateZ (-90deg);
     
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
 import { Accordion, Panel } from "react-bootstrap";
-import { Collapse } from './C:/Users/Mariley/AppData/Local/Microsoft/TypeScript/2.6/node_modules/@types/react-bootstrap/lib/Navbar';
 
 export const About = ({NavBar}) => {
     AOS.init();
@@ -10,36 +9,77 @@ export const About = ({NavBar}) => {
         <div className='row match-my-cols full-page'>
             <div className='col-xs-12 col-md-5 col-sm-12 col-lg-4 background-white'>
                 <p className='title'>Sobre mi...</p>
+                <img src='img/me-2.jpg'/>
                 {/* <NavBar /> */}
             </div>
             <div className='col-xs-12 col-md-7 col-sm-12 col-lg-8 aboutme'>
             <p className='subtitle'>
                 Soy Desarrolladora FronEnd Jr, e Ingenieria de Sistemas.
             </p>
-                <Collapse />
+                <Collapses />
             </div>
         </div>
         </section>
     )
 }
-const Collapse = () => {
+const Collapses = () => {
     return (
-        <Accordion>
-    <Panel header="Collapsible Group Item #1" eventKey="1">
-        <p className='paragraph' >
+        <Accordion defaultActiveKey="1" className='paragraph'>
+    <Panel header="Soy Mariley" eventKey="1" expanded >
                 Me apasiona lo digital y tecnológico en todas sus formas, conjuro mis habilidades 
                 de programar y creatividad para crear sitios web, profesionales, funcionales y accesibles.
-            </p>
-            <p className='paragraph'>
+            <br/>
                 Me agrada el trabajo en equipo, asi mismo trabajar individualmente es todo un reto, manteniendo la calma 
                 ante situaciones bajo presión y manejo del estrés.
-            </p>
+            
     </Panel>
-    <Panel header="Collapsible Group Item #2" eventKey="2">
-      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <Panel header="Mis Reconocimientos" eventKey="2">
+            <div className='row'>
+                <div className='col-sm-4 text-center'>
+                    <p>Las 5 Mejores</p>
+                    <img src='img/top_5.png' />
+                </div>
+                <div className='col-sm-4 text-center'>
+                    <p>La mejor Compañera</p>
+                    <img src='img/team-player.png' />
+                </div>
+                <div className='col-sm-4 text-center'>
+                    <p>Trabajo en Equipo</p>
+                    <img src='img/best_squad.png' />
+                </div>
+            </div>
     </Panel>
-    <Panel header="Collapsible Group Item #3" eventKey="3">
-      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <Panel header="Mis Interesés" eventKey="3">
+      <div className='flex-box'>
+          <div className='text-center'>
+            <span className="fa-stack fa-lg">
+                <i className="fa fa-circle fa-stack-2x"></i>
+                <i className="fa fa-code fa-stack-1x fa-inverse"></i>
+            </span><br />
+            Codigo
+          </div>
+          <div className='text-center'>
+            <span className="fa-stack fa-lg">
+                <i className="fa fa-circle fa-stack-2x"></i>
+                <i className="fa fa-plane fa-stack-1x fa-inverse"></i>
+            </span><br />
+            Viajar
+          </div>
+          <div className='text-center'>
+            <span className="fa-stack fa-lg">
+                <i className="fa fa-circle fa-stack-2x"></i>
+                <i className="fa fa-pencil fa-stack-1x fa-inverse"></i>
+            </span><br />
+            Viajar
+          </div>
+          <div className='text-center'>
+            <span className="fa-stack fa-lg">
+                <i className="fa fa-circle fa-stack-2x"></i>
+                <i className="fa fa-gamepad fa-stack-1x fa-inverse"></i>
+            </span><br />
+            videojuegos
+          </div>
+      </div>
     </Panel>
   </Accordion>
     )
