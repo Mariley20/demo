@@ -17,7 +17,7 @@ export const About = ({NavBar}) => {
             </p>
                 <Collapses />
                 <div className='flex-box'>
-                <img className='img-responsive' src='img/me1.jpg'/>
+                <img className='img-responsive' src='https://github.com/Mariley20/mariley20.github.io/blob/master/img/me1.JPG?raw=true'/>
                 <img className='img-responsive' src='img/me2.jpg'/>
                 <img className='img-responsive' src='img/me3.png'/>
                 </div>
