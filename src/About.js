@@ -9,7 +9,6 @@ export const About = ({NavBar}) => {
         <div className='row match-my-cols full-page'>
             <div className='col-xs-12 col-md-5 col-sm-12 col-lg-4 background-white'>
                 <p className='title'>Sobre mi...</p>
-                <img src='img/me-2.jpg'/>
                 {/* <NavBar /> */}
             </div>
             <div className='col-xs-12 col-md-7 col-sm-12 col-lg-8 aboutme'>
@@ -17,6 +16,11 @@ export const About = ({NavBar}) => {
                 Soy Desarrolladora FronEnd Jr, e Ingenieria de Sistemas.
             </p>
                 <Collapses />
+                <div className='flex-box'>
+                <img className='img-responsive' src='img/me1.jpg'/>
+                <img className='img-responsive' src='img/me2.jpg'/>
+                <img className='img-responsive' src='img/me3.png'/>
+                </div>
             </div>
         </div>
         </section>
