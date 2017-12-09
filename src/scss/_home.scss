@@ -12,6 +12,7 @@
 
 .container-fluid {
     padding-right: 0px;
+    padding-left: 0px; 
 }
 
 .firts_Information {
@@ -31,7 +32,9 @@
 .title {
     font-family: $fontTitle;
     text-align: center;
-    font-size: 5.4em;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 7px -3px 12px black;
     
 }
 

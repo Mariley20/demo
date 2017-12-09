@@ -33,7 +33,7 @@ export const Information = () => {
     return (
         <div className='firts_Information'>
             <h1 className='subtitle'>Hola, <br />Soy Mariley</h1>
-            <h3 className='welcome'>FrontEnd Developer </h3>
+            <h3 className='welcome'>FrontEnd Developer <br/>Ingeniería de sistemas </h3>
         </div>
     )
 }

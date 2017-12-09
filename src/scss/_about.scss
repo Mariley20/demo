@@ -1,9 +1,11 @@
 @import '_variables';
 .aboutme,
 {
-    padding: 10%;
+    padding: 1% 8%;
 }
-
+#about{
+    background: linear-gradient(#002a69 0%, transparent 2%, transparent 97%, #002a69 102%)
+}
 .aboutme .paragraph {
     line-height: 1.8;
     font-size: 2vh;
@@ -41,5 +43,9 @@
     }
     .menu {
         width: 80%;
+    }
+    .background-blue,
+    .background-white {
+        display: inherit;
     }
 }

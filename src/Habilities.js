@@ -5,10 +5,10 @@ export const Habilities = ({NavBar}) => {
     return (
       <section id='habilities'>
         <div  className='row match-my-cols full-page'>
-            <div className='col-xs-12 col-md-5 col-sm-4 col-lg-4 background-white'>
+            <div className='col-xs-12 col-md-5 col-sm-12 col-lg-4 background-white'>
                 <p className='title'>Mis Habilidades</p>
             </div>
-            <div className='col-xs-12 col-md-7 col-sm-8 col-lg-8 aboutme'>
+            <div className='col-xs-12 col-md-7 col-sm-12 col-lg-8 aboutme'>
                 <Skills />
             </div>
         </div>

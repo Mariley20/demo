@@ -22,7 +22,8 @@
   display: flex; }
 
 .container-fluid {
-  padding-right: 0px; }
+  padding-right: 0px;
+  padding-left: 0px; }
 
 .firts_Information {
   position: absolute;
@@ -40,7 +41,9 @@
 .title {
   font-family: "Parisienne", cursive;
   text-align: center;
-  font-size: 5.4em; }
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 7px -3px 12px black; }
 
 .subtitle {
   font-family: "Lobster", cursive;
@@ -327,6 +330,12 @@ h1 {
 .overlay h2 {
   font-weight: bold; }
 
+#work {
+  background: linear-gradient(transparent 43%, transparent 97%, transparent 46%, #002a69 102%); }
+
+#contact {
+  background: linear-gradient(transparent 43%, transparent 97%, transparent 46%, #002a69 102%); }
+
 #contact .col-xs-11,
 #contact .col-md-7,
 #contact .col-sm-8,
@@ -377,6 +386,9 @@ h1 {
   text-shadow: 2px 2px black; }
 
 /* CSS Skill*/
+#habilities {
+  background: linear-gradient(transparent 43%, transparent 97%, transparent 46%, #002a69 102%); }
+
 .SkillBar span {
   padding-top: 5px;
   width: 130px;
@@ -693,7 +705,10 @@ h1 {
   padding-left: 7px; }
 
 .aboutme {
-  padding: 10%; }
+  padding: 1% 8%; }
+
+#about {
+  background: linear-gradient(#002a69 0%, transparent 2%, transparent 97%, #002a69 102%); }
 
 .aboutme .paragraph {
   line-height: 1.8;
@@ -724,7 +739,11 @@ h1 {
     display: initial; }
 
   .menu {
-    width: 80%; } }
+    width: 80%; }
+
+  .background-blue,
+  .background-white {
+    display: inherit; } }
 .social {
   position: fixed;
   z-index: 99999;
@@ -740,7 +759,7 @@ h1 {
 .tab {
   margin-bottom: 5px;
   padding: 6px;
-  background: rgba(0, 0, 0, 0.2);
+  background: black;
   border-radius: 25px 0 0 25px;
   text-align: left; }
 
