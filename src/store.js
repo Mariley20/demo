@@ -35,7 +35,7 @@ let workObj = [{
         description: 'Una web dedica a la comida Japonesa, donde se da a conocer los más deliciosos pl' +
             'atillos de Sushi',
         tecnologies: ['React', 'js', 'Redux', 'HTML', 'CSS', 'Bootstrap', 'Programación por Componentes'],
-        img: 'img/japaneseFood.PNG',
+        img: 'https://c1.staticflickr.com/5/4643/38038808645_83bf44daa3_b.jpg',
         github: 'https://github.com/Mariley20/Japanesefood',
         website: 'https://jani-123.github.io/Japanesefood/'
     },
