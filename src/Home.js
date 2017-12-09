@@ -1,14 +1,11 @@
 import React from 'react';
-import Particles from 'react-particles-js'
 import './css/App.css';
-import particle from './particlesjs-config.json';
 import AOS from 'aos';
 
 export const Home = ({About, Work, workObj, Habilities, Contact}) => {
     return (
         <div >
         <section id='home'  className="home-page text-center">
-            {/* <ParticlesBackground /> */}
                 <NavBar />
                 <Information/>
                 <Icons />
@@ -19,14 +16,6 @@ export const Home = ({About, Work, workObj, Habilities, Contact}) => {
             <Contact NavBar={NavBar}  />
 
         </div>
-    )
-}
-export const ParticlesBackground = () => {
-    return (
-        <Particles 
-                params={particle}
-                className='particles-js'
-                width={'100%'} />
     )
 }
 export const Information = () => {
